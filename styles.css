@@ -1,0 +1,40 @@
+html body {
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; // make sure the parent is full screen
+}
+
+body p {
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    padding: 12px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 8px;
+}
+
+.slogan {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.details {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C9196;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
